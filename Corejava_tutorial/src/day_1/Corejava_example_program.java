@@ -6,7 +6,7 @@ public class Corejava_example_program {
 		Scanner s=new Scanner(System.in);
 		int a,b,c;
 		
-		System.out.println("enter the a and b values:");
+		System.out.println("er the a and b values:");
 		a=s.nextInt();
 		b=s.nextInt();
 		
