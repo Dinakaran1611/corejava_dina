@@ -32,7 +32,19 @@ public class Customer {
 		return "Customer [cid=" + cid + ", name=" + name + ", address=" + address + "]";
 	}
 	
-	
-	
+	//default constructor
+	public Customer() {
+		this.cid=0;
+		this.name="no name entered";
+		this.address="invalid or not entered";
+		
+	}
+	//parameter constructor
+	public Customer(int cid,String name,String address) {
+		this.cid=cid;
+		this.name=name;
+		this.address=address;
+		
+	}
 
 }

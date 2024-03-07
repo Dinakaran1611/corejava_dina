@@ -13,7 +13,6 @@ public class Executor {
 				
 				
 		Customer c2= new Customer();
-		c2.setCid(113);
 		c2.setName("dhiviya");
 		c2.setAddress("jammu kashmir");
 		System.out.println(c2);//tostring method
@@ -23,5 +22,8 @@ public class Executor {
 		c3.setName("diya");
 		c3.setAddress("goa");
 		System.out.println(c3);//tostring method
+		
+		Customer c4=new Customer(114,"dhiran","malvides");
+		System.out.println(c4);
 	}
 }
