@@ -16,9 +16,12 @@ public class Executor {
 		c2.setCid(113);
 		c2.setName("dhiviya");
 		c2.setAddress("jammu kashmir");
-		System.out.println("customer id is "+c2.getCid());
-		System.out.println("customer name "+c2.getName());
-		System.out.println("customer address "+c2.getAddress());
+		System.out.println(c2);//tostring method
 		
+		Customer c3= new Customer();
+		c3.setCid(113);
+		c3.setName("diya");
+		c3.setAddress("goa");
+		System.out.println(c3);//tostring method
 	}
 }
