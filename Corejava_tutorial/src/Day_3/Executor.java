@@ -8,5 +8,4 @@ public class Executor {
 		c1.setAddress("pondy");
 		System.out.println("customer id is "+c1.getCid()+" customer name "+c1.getName()+" customer address "+c1.getAddress());
 	}
-
 }
